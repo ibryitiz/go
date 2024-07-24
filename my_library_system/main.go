@@ -150,23 +150,4 @@ func main() {
 			fmt.Println("Geçersiz seçim. Lütfen tekrar deneyin.")
 		}
 	}
-
-	//! yukardaki for yapılmadan önce kontroller
-	//* Kitap kiralama işlemleri
-	//borrowBook(members, books, 1, 1)
-	//borrowBook(members, books, 2, 2)
-	//borrowBook(members, books, 1, 3)
-	//borrowBook(members, books, 1, 3) // Bu işlem stokta kitap olmadığı için başarısız olacak
-	//borrowBook(members, books, 1, 3) // Bu işlem stokta kitap olmadığı için başarısız olacak
-
-	//* Kitap iade işlemleri
-	//returnBook(members, books, 1, 1)
-	//returnBook(members, books, 2, 2)
-	//returnBook(members, books, 1, 3)
-
-	//* Kitapları listeleme
-	//listBooks(books)
-
-	//* Üyeleri ve kiraladıkları kitapları listeleme
-	//listMembers(members)
 }

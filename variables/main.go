@@ -26,6 +26,7 @@ func main() {
 
 	// myString := "My String"
 	// fmt.Println(myString)
+
 	//? GİBİ DEĞİŞKENLER TANIMLANABİLİR
 
 	var productName string

@@ -14,7 +14,7 @@ func main() {
 	names["veli"] = 3
 
 	fmt.Println(names["mustafa"])
-	fmt.Println(names["melike"]) //! melike olmadığıiçin hata vermez 0 yazar
+	fmt.Println(names["melike"]) //! melike olmadığı için hata vermez 0 yazar
 
 	// 2.tanım
 	ages := map[string]int{
